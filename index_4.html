@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <title>Metafox – Responsive Bootstrap Personal Template</title>
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="images/favicon/manifest.json">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="vendor/animate-css/animate.min.css">
+
+        <!-- Lightbox CSS -->
+        <link rel="stylesheet" href="vendor/lightbox/css/lightbox.min.css">
+
+        <!-- Owl Carousel CSS -->
+        <link rel="stylesheet" href="vendor/owl-carousel/css/owl.carousel.min.css">
+
+        <!-- Line Icons -->
+        <link rel="stylesheet" href="vendor/line-icons/line-icons.min.css">
+
+        <!-- Main CSS Files -->
+        <link rel="stylesheet" href="css/master.css">
+        <link rel="stylesheet" href="css/color/red.css">
+
+        <!-- Google Recaptcha JS -->
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    </head>
+
+    <body>
+        <!-- Page preloader -->
+        <div class="preloader">
+            <div class="spinner"></div>
+        </div>
+
+        <!-- Mobile menu overlay -->
+        <div class="mm-overlay"></div>
+
+        <div class="wrapper">
+            <header>
+                <!-- Start Navbar -->
+                <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+                    <div class="container">
+                        <a class="navbar-brand" href="index.html">
+                            <svg width="415" height="453" viewBox="0 0 415 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M414.73 0L207.37 132.76L0 0V272.83H0.03C0.03 277.19 1.91 281.36 5.25 284.22L197.62 448.99C197.62 448.99 197.62 448.99 197.63 448.99C197.94 449.26 198.27 449.51 198.61 449.75C198.72 449.83 198.83 449.9 198.94 449.98C199.17 450.13 199.39 450.28 199.63 450.42C199.77 450.5 199.9 450.58 200.04 450.66C200.27 450.79 200.5 450.91 200.73 451.02C200.86 451.09 200.99 451.16 201.13 451.22C201.48 451.38 201.83 451.53 202.19 451.66C202.32 451.71 202.44 451.74 202.57 451.79C202.83 451.88 203.08 451.96 203.34 452.03C203.49 452.07 203.64 452.11 203.8 452.15C204.05 452.21 204.29 452.27 204.54 452.31C204.69 452.34 204.84 452.37 204.99 452.39C205.26 452.43 205.53 452.47 205.81 452.5C205.94 452.51 206.06 452.53 206.19 452.54C206.59 452.57 206.99 452.59 207.39 452.59C207.8 452.59 208.2 452.57 208.6 452.54C208.73 452.53 208.85 452.51 208.98 452.5C209.26 452.47 209.53 452.44 209.8 452.39C209.95 452.37 210.09 452.34 210.24 452.31C210.49 452.26 210.75 452.21 210.99 452.14C211.14 452.1 211.29 452.07 211.43 452.03C211.7 451.95 211.96 451.87 212.23 451.78C212.35 451.74 212.47 451.7 212.59 451.66C212.95 451.53 213.31 451.38 213.66 451.22C213.79 451.16 213.92 451.09 214.04 451.03C214.28 450.91 214.51 450.79 214.74 450.66C214.88 450.58 215.01 450.5 215.15 450.42C215.38 450.28 215.61 450.13 215.83 449.98C215.94 449.9 216.06 449.83 216.17 449.75C216.5 449.51 216.83 449.26 217.14 449L217.15 448.99L409.52 284.21C412.86 281.35 414.74 277.18 414.74 272.82H414.77V0H414.73ZM122.85 222.06L207.37 168.35L291.89 222.06L207.37 402.28L122.85 222.06ZM30 94.73L84.48 210.9L30 245.52V94.73ZM50.61 68.03L179.47 150.53L110 194.68L50.61 68.03ZM235.26 150.52L364.12 68.02L304.73 194.67L235.26 150.52ZM384.73 94.73V245.52L330.25 210.9L384.73 94.73ZM97.32 238.28L164.19 380.87L40.15 274.62L97.32 238.28ZM250.54 380.87L317.41 238.28L374.58 274.62L250.54 380.87Z" fill="white"/>
+                            </svg>
+                            Metafox
+                        </a>
+                        <button class="navbar-toggler open">
+                            <i class="lni-menu"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="main-menu">
+                            <button class="navbar-toggler close">
+                                <i class="lni-close"></i>
+                            </button>
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#services">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#testimonials">Clients</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#blog">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="social-media">
+                                <a href="#">
+                                    <i class="lni-facebook-filled"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="lni-twitter-filled"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="lni-instagram-original"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="lni-linkedin-original"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="lni-behance-original"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </nav>
+                <!-- End Navbar -->
+            </header>
+    
+            <main>
+
+                <!-- Start Home -->
+                <section id="home">
+                    <div class="jumbotron min-vh-100 clip-home">
+                        <div class="overlay"></div>
+                        <div class="container">
+                            <div class="row min-vh-100">
+                                <div class="col-md-12 text-center my-auto">
+                                    <div class="intro">
+                                        <div class="portrait-small animated fadeInDown"></div>
+                                        <h1 class="animated fadeInDown">Eric Bradley</h1>
+                                        <div class="typewriter mb-5 animated fadeInUp ">
+                                            I'm a
+                                            <div class="typed-strings">
+                                                <span>Webdesigner</span>
+                                                <span>Graphic Designer</span>
+                                                <span>Photographer</span>
+                                            </div>
+                                            <span class="typed"></span>
+                                        </div>
+                                        <a href="#about" class="btn btn-primary animated fadeInUp">
+                                            Learn more
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#about" class="scroll-down bounce"></a>
+                    </div>
+                </section>
+                <!-- End Home -->
+
+                <!-- Start About -->
+                <section id="about">
+                    <div class="inner">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h1>About me</h1>
+                                </div>
+                                <div class="col-md-5 pr-md-5 mb-4 mb-md-0 portrait animated">
+                                    <img src="images/portrait.jpg" alt="">
+                                </div>
+                                <div class="col-md-7 description animated">
+                                    <h2>Hello, I'm Eric</h2>
+                                    <p>
+                                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                                    </p>
+                                    <div class="about-contact-wrap">
+                                        <ul>
+                                            <li>
+                                                <span>Name:</span> Eric Bradley
+                                            </li>
+                                            <li>
+                                                <span>Address:</span> 3018 East Ave
+                                            </li>
+                                            <li>
+                                                <span>Age:</span> 26 years
+                                            </li>
+                                            <li>
+                                                <span>Phone:</span> 202-555-0100
+                                            </li>
+                                            <li>
+                                                <span>Email:</span> eric@mydomain.com
+                                            </li>
+                                            <li>
+                                                <span>Website:</span> www.mydomain.com
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="btn btn-secondary mr-2">
+                                        Download CV
+                                    </a>
+                                    <a href="#contact" class="btn btn-primary">
+                                        Send a message
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inner lighten">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-5 pr-md-5 mb-4 mb-md-0">
+                                    <h2>My skills</h2>
+                                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. 
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="progress-bar-wrap">
+
+                                        <div class="progress-wrap">
+                                            <div class="progress-header">
+                                                <span class="label">HTML</span>
+                                                <span class="percentage">95%</span>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="95"
+                                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="progress-wrap">
+                                            <div class="progress-header">
+                                                <span class="label">CSS</span>
+                                                <span class="percentage">85%</span>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="85"
+                                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="progress-wrap">
+                                            <div class="progress-header">
+                                                <span class="label">JavaScript</span>
+                                                <span class="percentage">70%</span>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="progress-wrap">
+                                            <div class="progress-header">
+                                                <span class="label">Wordpress</span>
+                                                <span class="percentage">90%</span>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End About -->
+                
+                <!-- Start Services -->
+                <section id="services">
+                    <div class="inner">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h1>Services</h1>
+                                    <p class="subtitle mb-5 text-center">
+                                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove. 
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row animated">
+                                <div class="col-md-4 service">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <i class="lni-display"></i>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Webdesign</h5>
+                                            <p class="card-text">
+                                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 service">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <i class="lni-mobile"></i>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">App Design</h5>
+                                            <p class="card-text">
+                                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 service">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <i class="lni-camera"></i>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Photography</h5>
+                                            <p class="card-text">
+                                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 service">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <i class="lni-vector"></i>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Graphic Design</h5>
+                                            <p class="card-text">
+                                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 service">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <i class="lni-video"></i>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Videos</h5>
+                                            <p class="card-text">
+                                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 service">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <i class="lni-play"></i>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Animations</h5>
+                                            <p class="card-text">
+                                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Services -->
+
+                <!-- Start Portfolio -->
+                <section id="portfolio">
+                    <div class="inner lighten">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h1>Portfolio</h1>
+                                </div>
+                            </div>
+
+                            <!-- Filter -->
+                            <div class="row">
+                                <div class="col-md-12 text-center mb-4">
+                                    <div class="filters-group">
+                                        <div class="btn-group filter-options">
+                                            <button class="btn active" data-group="all">
+                                                All
+                                            </button>
+                                            <button class="btn" data-group="webdesign">
+                                                Webdesign
+                                            </button>
+                                            <button class="btn" data-group="graphic">
+                                                Graphic Design
+                                            </button>
+                                            <button class="btn" data-group="photography">
+                                                Photography
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Projects -->
+                            <div id="project-grid" class="row shuffle animated">
+                                <div class="col-md-4 project-item" data-groups='["graphic"]'>
+                                    <a href="images/portfolio/project_01.jpg" data-lightbox="portfolio">
+                                        <img src="images/portfolio/project_01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-md-4 project-item" data-groups='["photography"]'>
+                                    <a href="images/portfolio/project_02.jpg" data-lightbox="portfolio">
+                                        <img src="images/portfolio/project_02.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-md-4 project-item" data-groups='["photography"]'>
+                                    <a href="images/portfolio/project_03.jpg" data-lightbox="portfolio">
+                                        <img src="images/portfolio/project_03.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-md-4 project-item" data-groups='["graphic"]'>
+                                    <a href="images/portfolio/project_04.jpg" data-lightbox="portfolio">
+                                        <img src="images/portfolio/project_04.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-md-4 project-item" data-groups='["webdesign"]'>
+                                    <a href="images/portfolio/project_05.jpg" data-lightbox="portfolio">
+                                        <img src="images/portfolio/project_05.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-md-4 project-item" data-groups='["graphic"]'>
+                                    <a href="images/portfolio/project_06.jpg" data-lightbox="portfolio">
+                                        <img src="images/portfolio/project_06.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Portfolio -->
+
+                <!-- Start Testimonials -->
+                <section id="testimonials">
+                    <div class="inner">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 text-center mb-5">
+                                    <h1>Clients</h1>
+                                    <p class="subtitle text-center">
+                                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove. 
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row animated">
+                                <div class="col-md-12">
+                                    <div class="owl-carousel owl-theme">
+                                        <div class="item">
+                                            <div class="client-image">
+                                                <img src="images/testimonials/testimonial_01.jpg" alt="">
+                                            </div>
+                                            <p class="client-testimonial">
+                                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast.
+                                            </p>
+                                            <p class="client-name">
+                                                John Doe
+                                            </p>
+                                        </div>
+                                        <div class="item">
+                                            <div class="client-image">
+                                                <img src="images/testimonials/testimonial_02.jpg" alt="">
+                                            </div>
+                                            <p class="client-testimonial">
+                                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast.
+                                            </p>
+                                            <p class="client-name">
+                                                Jane Doe
+                                            </p>
+                                        </div>
+                                        <div class="item">
+                                            <div class="client-image">
+                                                <img src="images/testimonials/testimonial_03.jpg" alt="">
+                                            </div>
+                                            <p class="client-testimonial">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam autem adipisci voluptatum assumenda exercitationem quibusdam magni numquam explicabo reiciendis.
+                                            </p>
+                                            <p class="client-name">
+                                                John Doe
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Testimonials -->
+
+                <!-- Start Blog -->
+                <section id="blog">
+                    <div class="inner lighten">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h1>Blog</h1>
+                                </div>
+                            </div>
+
+                            <div class="row animated">
+                                <div class="col-md-4 blog mb-5 mb-md-0">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <img src="images/blog/blog_01.jpg" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="meta">
+                                                <div class="date">
+                                                    16 May 2019
+                                                </div>
+                                            </div>
+                                            <h5 class="card-title">Webdesign</h5>
+                                            <p class="card-text">
+                                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts …
+                                            </p>
+                                            <a href="#" class="btn btn-secondary">
+                                                Read more
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 blog mb-5 mb-md-0">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <img src="images/blog/blog_02.jpg" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                                <div class="date">
+                                                        16 May 2019
+                                                    </div>
+                                            <h5 class="card-title">Graphic Design</h5>
+                                            <p class="card-text">
+                                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts …
+                                            </p>
+                                            <a href="#" class="btn btn-secondary">
+                                                Read more
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 blog">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <img src="images/blog/blog_03.jpg" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                                <div class="date">
+                                                    16 May 2019
+                                                </div>
+                                            <h5 class="card-title">Photography</h5>
+                                            <p class="card-text">
+                                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts …
+                                            </p>
+                                            <a href="#" class="btn btn-secondary">
+                                                Read more
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Blog -->
+
+                <!-- Start Contact -->
+                <section id="contact">
+                    <div class="inner">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h1>Contact</h1>
+                                    <p class="subtitle mb-5 text-center">
+                                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove. 
+                                    </p>
+                                </div>
+                                <div class="col-md-12 animated mb-4">
+                                    <div class="row">
+                                        <div class="col-sm-4 text-center">
+                                            <div class="icon">
+                                                <i class="lni-envelope"></i>
+                                            </div>
+                                            <strong>Email:</strong>
+                                            <p>
+                                                eric@mydomain.com
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-4 text-center">
+                                            <div class="icon">
+                                                <i class="lni-mobile"></i>
+                                            </div>
+                                            <strong>Phone:</strong>
+                                            <p>
+                                                202-555-0100
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-4 text-center">
+                                            <div class="icon">
+                                                <i class="lni-map-marker"></i>
+                                            </div>
+                                            <strong>Address:</strong>
+                                            <p>
+                                                3018 East Ave
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 contact-form animated">
+                                    <form id="contact-form" method="post" action="php/contact.php">
+                                        <div class="row">
+                                            <div class="col-md-6 form-group">
+                                                <input name="name" type="text" class="form-control" id="name" placeholder="Your Name">
+                                            </div>
+                                            <div class="col-md-6 form-group">
+                                                <input name="email" type="email" class="form-control" id="email" placeholder="Your Email">
+                                            </div>
+                                            <div class="col-md-12 form-group">
+                                                <input name="subject" type="text" class="form-control" id="subject" placeholder="Your Subject">
+                                            </div>
+                                            <div class="col-md-12 form-group">
+                                                <textarea name="message" class="form-control" id="message" placeholder="Your Message"></textarea>
+                                            </div>
+                                            <div class="col-md-12 form-group">
+                                                <!-- Replace YOUR-SITE-KEY with your own. -->
+                                                <div class="g-recaptcha" data-sitekey="YOUR-SITE-KEY"></div>
+                                            </div>
+                                            <div class="col-md-12 form-group">
+                                                <button type="submit" class="btn btn-secondary">Send</button>
+                                            </div>
+                                            
+                                            <div id="contact-form-message"></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Contact -->
+
+                <!-- Start Footer -->
+                <footer>
+                    <div class="social-media inner">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-2">
+                                    <a href="#">
+                                        <i class="lni-facebook-filled"></i>
+                                    </a>
+                                </div>
+                                <div class="col-2">
+                                    <a href="#">
+                                        <i class="lni-twitter-filled"></i>
+                                    </a>
+                                </div>
+                                <div class="col-2">
+                                    <a href="#">
+                                        <i class="lni-instagram-original"></i>
+                                    </a>
+                                </div>
+                                <div class="col-2">
+                                    <a href="#">
+                                        <i class="lni-linkedin-original"></i>
+                                    </a>
+                                </div>
+                                <div class="col-2">
+                                    <a href="#">
+                                        <i class="lni-behance-original"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    Copyright © 2020 Metablox
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- End Footer -->
+
+                <!-- Back to top button -->
+                <div class="back-to-top"></div>
+
+            </main>
+        </div>
+        
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>window.jQuery || document.write('<script src="vendor/jquery/jquery.min.js"><\/script>');</script>
+
+        <!-- Bootstrap JS -->
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Waypoints JS -->
+        <script src="vendor/jquery-waypoints/jquery.waypoints.min.js"></script>
+
+        <!-- Shuffle JS -->
+        <script src="vendor/shuffle/shuffle.min.js"></script>
+
+        <!-- Lightbox JS -->
+        <script src="vendor/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Typed JS -->
+        <script src="vendor/typed/typed.min.js"></script>
+
+        <!-- Owl Carousel JS -->
+        <script src="vendor/owl-carousel/js/owl.carousel.min.js"></script>
+
+        <!-- Contact JS -->
+        <script src="js/contact.js"></script>
+
+        <!-- Main JS -->
+        <script src="js/main.js"></script>
+
+        <!-- Page preloader -->
+        <script>
+            $(window).on('load', function() {
+                $('.preloader').fadeOut('slow');
+            });
+        </script>
+
+    </body>
+</html>
