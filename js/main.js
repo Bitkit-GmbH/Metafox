@@ -1,7 +1,7 @@
 /*
 Template Name: Metafox – Responsive Bootstrap Personal Template
 Author: Metablox
-Version: 1.1.0
+Version: 1.0.0
 Created: February 2020
 File Description: Main JS file of the template
 */
@@ -10,12 +10,12 @@ File Description: Main JS file of the template
     "use strict";
 
     // Hide down arrow when scrolling
-    $(window).on('scroll', function(){
+    $(window).on('scroll', function() {
         $(".scroll-down").css("opacity", 1 - $(window).scrollTop() / 500);
     });
 
     // Change class of main navigation when scrolling
-    $(window).on('scroll', function(){
+    $(window).on('scroll', function() {
         if ($(document).scrollTop() > 100) {
             $(".fixed-top").addClass("shrink");
         } else {
@@ -60,7 +60,7 @@ File Description: Main JS file of the template
     });
 
     // Smooth scrolling
-    $(document).on('click', 'a[href^="#"]', function () {
+    $(document).on('click', 'a[href^="#"]', function(event) {
         event.preventDefault();
 
         var offsetY;
