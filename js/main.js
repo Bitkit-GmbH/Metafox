@@ -31,11 +31,11 @@ File Description: Main JS file of the template
     }, { offset: '100%'});
 
   // Section fade in animations
-    $('.animated').each(function() {
+    $('.animate__animated').each(function() {
         var section = $(this);
         section.css('opacity', 0);
         section.waypoint(function() {
-            section.addClass("fadeInUp");
+            section.addClass("animate__fadeInUp");
         }, { offset: '70%'});
     });
 
